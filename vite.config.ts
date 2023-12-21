@@ -8,20 +8,20 @@ export default defineConfig(({ command }) => {
     base: '/',
     plugins: [react(), svgrPlugin()],
     server: { port: 8080 },
-    build: {
-        outDir: 'build',
-        chunkSizeWarningLimit: 1600,
-        sourcemap: false, 
-        rollupOptions: {
-          output:{
-              manualChunks(id) {
-                  if (id.includes('node_modules')) {
-                      return id.toString().split('node_modules/')[1].split('/')[0].toString();
-                  }
-              }
-          }
-      }  
-    },
+    // build: {
+    //     outDir: 'build',
+    //     chunkSizeWarningLimit: 1600,
+    //     sourcemap: false, 
+    //     rollupOptions: {
+    //       output:{
+    //           manualChunks(id) {
+    //               if (id.includes('node_modules')) {
+    //                   return id.toString().split('node_modules/')[1].split('/')[0].toString();
+    //               }
+    //           }
+    //       }
+    //   }  
+    // },
     resolve: {
       alias: {
           '@layouts': path.resolve(__dirname, './src/layouts'),

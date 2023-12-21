@@ -9,12 +9,6 @@ $ npm install
 ```bash
 # development
 $ npm run start
-
-# deploy
-$ npm run deploy
-
-# production
-$ npm run build
 ```
 
 ## Refrences 

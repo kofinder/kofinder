@@ -25,7 +25,7 @@ function App() {
   // return <RouterProvider router={router} />
   return (
     <BrowserRouter
-      basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}
+      basename={import.meta.env.DEV ? '/' : '/theinlwin/'}
     >
       <Routes>
         <Route

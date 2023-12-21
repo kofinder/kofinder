@@ -1,46 +1,25 @@
-// import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import './App.css'
+import React from 'react';
+import { useRoutes } from 'react-router-dom';
 
-function App() {
-  // const router = createBrowserRouter(
-  //   [
-  //     {
-  //       path: '/',
-  //       element: (
-  //         <div>
-  //           <h1>Hello World</h1>
-  //           <Link to='about'>About Us</Link>
-  //         </div>
-  //       ),
-  //     },
-  //     {
-  //       path: 'about',
-  //       element: <div>About</div>,
-  //     },
-  //   ],
-  //   { basename: import.meta.env.DEV ? '/' : '/react-vite-gh-pages/' }
-  // )
+import { ThemeProvider, StyledEngineProvider } from '@mui/material';
+import 'react-perfect-scrollbar/dist/css/styles.css';
+import { GlobalStyles } from "@mui/material";
+import globalStyle from '@styles/globalstyles';
+import theme from '@styles/theme';
 
-  // return <RouterProvider router={router} />
+import AppProvider from './contexts';
+import routes from './routes/index';
+
+export default function App() {
+  const routing = useRoutes(routes);
   return (
-    <BrowserRouter
-      basename={import.meta.env.DEV ? '/' : '/theinlwin/'}
-    >
-      <Routes>
-        <Route
-          path='/'
-          element={
-            <div>
-              <h1>Hello World</h1>
-              <Link to='about'>About Us</Link>
-            </div>
-          }
-        />
-        <Route path='/about' element={<div>About</div>} />
-      </Routes>
-    </BrowserRouter>
-  )
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={theme}>
+        <AppProvider>
+          <GlobalStyles styles={globalStyle}/>
+          {routing}
+        </AppProvider>
+      </ThemeProvider>
+    </StyledEngineProvider>
+  );
 }
-
-export default App

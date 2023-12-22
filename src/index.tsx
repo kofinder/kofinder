@@ -14,7 +14,7 @@ const modalRoot = document.getElementById('root');
 const root = ReactDOM.createRoot(modalRoot as HTMLElement);
 root.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/theinlwin/'}>
       <App />
     </BrowserRouter>
   </Provider>

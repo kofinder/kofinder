@@ -1,7 +1,8 @@
 {
   "name": "theinlwin",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "main": "index.js",
   "repository": "https://github.com/finderbar/theinlwin.git",
   "author": "jovian <finderbar.theinlwin@gmail.com>",
@@ -60,7 +61,6 @@
   },
   "scripts": {
     "start": "vite --host",
-    "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

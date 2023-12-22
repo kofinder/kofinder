@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
     plugins: [react(), svgrPlugin()],
     server: { port: 8080 },
     // build: {
-    //     outDir: 'build',
+    //     outDir: 'dist',
     //     chunkSizeWarningLimit: 1600,
     //     sourcemap: false, 
     //     rollupOptions: {

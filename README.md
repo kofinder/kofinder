@@ -1,16 +1,8 @@
-### Installation
+A passionate individual who is always thrilled to work on problem solving which develops sustainable systems to create impact. I have a strong affinity for working on and developing Cross Platform, Computer Vision solutions for the ecommerce domain and finance domain such as banking systems. More recently, I've developed a strong interest in developing front-end and back-end digital solutions.
 
-```bash
-$ npm install
-```
+Outside of the techno world, I love that nature takes me travelling places to explore the unexplored, have new experiences, get new inspirations, and be toes for the surprises life has in store for me.
+I am a big foodie with a very diverse taste buds. My explorations for lip smacking food are endless. I love to try out every cuisine when I get the chance. Food is another motivation to explore places and keep learning about the culinary practices of any region.
 
-## Running the app
+Professionally, I worked as a Software Engineer for over 12 years. I have been lucky to have got the chance to work on both sides of the front-end and back-end application development. I've built multiple applications for multiple platforms known as full stack development. I started with C++, migrating to Java  and bits & pieces with C when needed. Having spent the majority of my professional journey with Java. I specialize in architecting and delivering robust, scalable software solutions. My expertise spans the entire software development lifecycle, from requirements analysis and system design to implementation and deployment. I am passionate about leveraging cutting-edge technologies to create efficient, maintainable, and user-centric applications. I thrive in collaborative, cross-functional teams and excel at translating complex business requirements into elegant, high-performance code.
 
-```bash
-# development
-$ npm run start
-```
-
-## Refrences 
-- http://manogel.github.io/template-material-ui
-- https://blog.devgenius.io/how-to-deploy-your-vite-react-app-to-github-pages-with-and-without-react-router-b060d912b10e
+Beyond my professional coding explorations, I never miss a chance to get involved with code to remain updated with the latest technologies, and skills that interest me. I actively engage with the tech community through mentorship, knowledge sharing, and participation in industry events. I am passionate about fostering the next generation of software engineers and regularly volunteer to mentor aspiring developers through coding workshops and hackathons. I am planning to create new programming which can be the most productive for the business. That must provide multi-paradigm and  parallelism which involves the simultaneous execution of multiple tasks or processes to improve computational efficiency and performance. It allows software to take advantage of multi-core processors, distributed systems, and specialized hardware to execute tasks in parallel, thereby accelerating the overall processing speed. Please contact me to find out how my skills could best work for your company.
